@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="@string/portScannerSettingsAddressIP"
+        android:key="settings_portscanner_ipaddress"
+        android:summary="@string/portScannerSettingsAddressIPSummary"/>
+    <EditTextPreference
+        android:title="@string/portScannerSettingsListPorts"
+        android:key="settings_portlist"
+        android:summary="@string/portScannerSettingsListPortsSummary"
+        android:dialogMessage="@string/portScannerSettingsListPortsHelp"
+        android:defaultValue="21-23,25,53,80,110,111,135,139,143,443,445,993,995,1723,3306,3389,5900,8080"/>
+    <SwitchPreference
+        android:title="@string/portScannerSettingsAllPorts"
+        android:key="settings_all"
+        android:summary="@string/portScannerSettingsAllPortsSummary"/>
+    <SwitchPreference
+        android:title="@string/portScannerSettingsTCPScan"
+        android:key="settings_tcp"
+        android:summary="@string/portScannerSettingsTCPScanSummary"
+        android:defaultValue="true"/>
+    <SwitchPreference
+        android:title="@string/portScannerSettingsUDPScan"
+        android:key="settings_udp"
+        android:summary="@string/portScannerSettingsUDPScanSummary"/>
+
+</PreferenceScreen>

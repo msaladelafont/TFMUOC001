@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo_A200</item>
+        <item name="colorPrimaryDark">@color/indigo_A700</item>
+        <item name="colorAccent">@color/indigo_A200</item>
+    </style>
+    <style name="Theme.Splashscreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo_A200</item>
+        <item name="colorPrimaryDark">@color/indigo_A700</item>
+        <item name="colorAccent">@color/indigo_A200</item>
+    </style>
+    <style name="Theme.Preferences" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/indigo_A200</item>
+        <item name="colorPrimaryDark">@color/indigo_A700</item>
+        <item name="colorAccent">@color/indigo_A200</item>
+    </style>
+    <style name="Theme.Scanner" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/indigo_A200</item>
+        <item name="colorPrimaryDark">@color/indigo_A700</item>
+        <item name="colorAccent">@color/indigo_A200</item>
+    </style>
+</resources>

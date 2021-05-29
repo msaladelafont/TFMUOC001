@@ -1,0 +1,61 @@
+<resources>
+    <string name="appName">TreballFINAL</string>
+
+    <!-- Menu names -->
+    <string name="menuSettings">Configuració</string>
+    <string name="homeName">Pàgina principal</string>
+    <string name="portScannerName">Escaneig de ports</string>
+    <string name="networkScannerName">Escaneig de xarxa</string>
+    <string name="featuresName">Funcionalitats</string>
+    <string name="languageName">Idioma</string>
+    <string name="resultsName">Resultat</string>
+    <string name="startName">Comença</string>
+
+    <!-- Config names -->
+    <string name="portScannerSettingsAddressIP">Adreça IP</string>
+    <string name="portScannerSettingsAddressIPSummary">Introdueix l\'adreça IP per analitzar</string>
+    <string name="portScannerSettingsListPorts">Llistat de ports</string>
+    <string name="portScannerSettingsListPortsSummary">Introdueix la llista de ports a analitzar</string>
+    <string name="portScannerSettingsListPortsHelp">
+        Els ports han d\'estar separats en comes (ex. 20,80,88).
+        Si es vol especificar un rang, s\'ha de separar amb un guó (ex. 100-999).</string>
+    <string name="portScannerSettingsAllPorts">Tots els ports</string>
+    <string name="portScannerSettingsAllPortsSummary">Escaneja tots els ports (1–65536)</string>
+    <string name="portScannerSettingsTCPScan">Escaneig TCP</string>
+    <string name="portScannerSettingsTCPScanSummary">Escaneja els ports TCP</string>
+    <string name="portScannerSettingsUDPScan">Escaneig UDP</string>
+    <string name="portScannerSettingsUDPScanSummary">Escaneja els ports UDP</string>
+    <string name="networkScannerSettingsAddressIP">Adreça IP</string>
+    <string name="networkScannerSettingsAddressIPSummary">Introdueix l\'adreça IP per analitzar</string>
+    <string name="networkScannerSettingsNetworkMask">Màscara de xarxa</string>
+    <string name="networkScannerSettingsNetworkMaskSummary">Escull la màscara de xarxa</string>
+
+    <!-- Other -->
+    <string name="progressBarName">Escanejant...</string>
+    <string name="networkScannerThisDevice">Aquest dispositiu</string>
+
+
+    <string name="portScannerSettingsStartIP">IP inici</string>
+    <string name="portScannerSettingsEndIP">IP final</string>
+    <string name="portScannerSettingsStartPort">Port inici</string>
+    <string name="portScannerSettingsEndPort">Port final</string>
+    <string name="portScannerStatusOpen">Obert</string>
+    <string name="portScannerStatusClosed">Tancat</string>
+    <string name="portScannerStatusFiltered">Filtrat</string>
+    <string name="portScannerStatusOpenFiltered">Obert|Filtrat</string>
+
+    <!-- Other -->
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="title_activity_scanner_main">ScannerMainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="description_app_logo">app logo</string>
+    <string name="description_new_scan_button">new scan button</string>
+</resources>

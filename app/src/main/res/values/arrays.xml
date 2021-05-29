@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="networkMaskArray">
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="networkMaskValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
